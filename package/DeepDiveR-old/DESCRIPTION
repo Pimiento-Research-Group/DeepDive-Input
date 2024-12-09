@@ -1,0 +1,22 @@
+Package: DeepDiveR
+Title: Set and launch DeepDive analyses.
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Rebecca", "Cooper", , "rebecca.cooper@unifr.ch", role = c("aut", "cre"),
+             comment = c(ORCID = "0000-0002-4742-1422")))
+Description: Organise input data and scripts for analysis in DeepDive.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    data.table,
+    dplyr,
+    tidyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

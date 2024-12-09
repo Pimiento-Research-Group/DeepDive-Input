@@ -1,0 +1,26 @@
+Amanda					Gregor				Daniele
+
+[general]				[general]			[general]
+include_present_diversity=TRUE  	X				include_present_diversity=TRUE
+calibrate_diversity=TRUE		X				X
+X					present_diversity=1100		present_diversity=1100
+
+
+[simulations]				[simulations]			[simulations]
+s_species=10 100			s_species=1			s_species=10 100
+total_sp=1000 25000			total_sp=100 5000		total_sp=1000 25000	
+rangeL=0.01 0.1				rangeL=0.02 0.5			rangeL=0.01 0.1
+rangeM=0.01 0.1				rangeM=0.02 0.5			rangeM=0.01 0.1
+pr_extant_clade=1			pr_extant_clade=0.7		pr_extant_clade=1
+area_variance=0.01			area_variance=5			area_variance=0.01
+sp_mean=0.3 1				sp_mean=0.1 0.5			sp_mean=0.3 1			
+maximum_localities_per_bin=600		maximum_localities_per_bin=200	maximum_localities_per_bin=600
+min_extant_sp=0 1000			X				min_extant_sp=0 1000
+
+[model_training]			[model_training]		[model_training]
+
+[empirical_predictions]			[empirical_predictions]		[empirical_predictions]
+scaling=1-mean				X				scaling=1-mean
+present_diversity=1100			X				present_diversity=1100
+taxon_level=Species			X				taxon_level=Species
+
