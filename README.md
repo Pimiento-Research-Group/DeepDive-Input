@@ -3,7 +3,7 @@
 This repository contains the scripts and data used to prepare the input files required for DeepDive analyses, as described in the manuscript:
 
 **"A new analysis of the shark and ray fossil record reveals hidden diversity patterns"**  
-*A. Gardiner1, G. H. Mathes1, R. Cooper2,3, K. Kocáková1, J.A. Villafaña4, D. Silvestro2,3,5*, C. Pimiento1,6*\***  
+*A. Gardiner1, G. H. Mathes1, R. Cooper2,3, K. Kocáková1, J.A. Villafaña4, D. Silvestro2,3,5*, C. Pimiento1,6*\*
 
 ¹ Department of Paleontology, University of Zurich, Zurich, 8006, Switzerland  
 ² Department of Biology, University of Fribourg, Fribourg, CH-1700, Switzerland  
