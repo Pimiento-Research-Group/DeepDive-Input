@@ -44,5 +44,7 @@ There are two R Scripts in this repository. The first one, *extant_species.R* si
 ## DeepDive
 
 The input files were then used to run the DeepDive analysis on a HPC cluster. First, we installed the DeepDive python package in a virtual environment on the cluster following [these instruction](https://github.com/DeepDive-project/deepdive). We then activated the virtual environment and launched DeepDive for each init file separately using
-´´´python run_dd_config.py input_file.ini -cpu 70´´´ 
+```
+python run_dd_config.py input_file.ini -cpu 70
+```
 where *input_file.ini* is replaced by the focal input, e.g. squaliformes_species.ini for the order squaliformes on species level. 
