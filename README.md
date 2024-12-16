@@ -24,3 +24,25 @@ This repository includes scripts and data for generating the input files necessa
 - A `.ini` configuration file specifying model parameters and settings.
 
 The repository ensures that data is properly cleaned, formatted, and validated to meet the requirements of DeepDive.
+
+
+## Packages  
+ 
+The following packages are required: 
+*tidyverse*
+*here*
+*readxl*
+*janitor*
+*DeepDiveR*
+
+All but the *DeepDiveR* package can be installed from CRAN using the **install.packages()** function. The *DeepDiveR* package can be installed by following the instructions [here](https://github.com/DeepDive-project/DeepDiveR).
+
+## R Scripts
+
+There are two R Scripts in this repository. The first one, *extant_species.R* simply calculates how many extant neoselachian species there are based on two different compilations. The second one, *sharks_runner.R*, prepares all input files for DeepDive and saves them in the data/ folder. 
+
+## DeepDive
+
+The input files were then used to run the DeepDive analysis on a HPC cluster. First, we installed the DeepDive python package in a virtual environment on the cluster following [these instruction](https://github.com/DeepDive-project/deepdive). We then activated the virtual environment and launched DeepDive for each init file separately using
+´´´python run_dd_config.py input_file.ini -cpu 70´´´ 
+where *input_file.ini* is replaced by the focal input, e.g. squaliformes_species.ini for the order squaliformes on species level. 
